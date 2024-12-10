@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 20s linear infinite;
+}
+
+.carousel-container {
+    position: relative;
+    box-shadow: inset 0 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+  
+.snap-x {
+    scroll-snap-type: x mandatory;
+}
+  
+.snap-center {
+    scroll-snap-align: center;
+}
