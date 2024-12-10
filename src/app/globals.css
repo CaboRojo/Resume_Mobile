@@ -28,6 +28,11 @@ body {
   object-fit: contain; /* Ensure the image fits within the specified dimensions */
 }
 
+.custom-image-size {
+  width: 500px; /* Set the desired width */
+  height: 300px; /* Set the desired height */
+}
+
 @keyframes marquee {
   0% {
     transform: translateX(0%);

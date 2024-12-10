@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
+import Head from 'next/head';
 import RootLayout from '../app/layout';
 
 const Contact = () => {
@@ -11,6 +12,9 @@ const Contact = () => {
 
   return (
     <RootLayout>
+      <Head>
+        <title>Contact</title>
+      </Head>
       <div className="min-h-screen" style={{ background: 'radial-gradient(circle at center, #000000, #434343)' }}>
         <section className="flex justify-center items-center min-h-screen">
           <div className="bg-white p-8 rounded-lg shadow-lg max-w-xs w-full" style={{ height: '500px' }}>

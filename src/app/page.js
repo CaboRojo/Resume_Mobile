@@ -135,10 +135,12 @@ export default function Home() {
       `}</style>
       <div className="relative w-full h-screen overflow-hidden">
         <Image
-          src="/Stylus/Outdoor/Sofa/Sofa_Pablo_Outdoor_A-02.webp"
-          alt="Background"
-          fill
-          className="absolute inset-0 w-full h-full z-10"
+            src="/Resume/MyPictures/Hero.jpg"
+            alt="Background"
+            layout="fill"
+            objectFit="cover"
+            objectPosition="center"
+            className="absolute inset-0 z-10"
         />
         <section className="relative flex flex-col min-w-full min-h-full pt-16 pl-4 pr-4 pb-10 justify-start items-center space-y-4 z-20">
           <h1 className="text-hero-title font-thin text-white mt-8 text-center">
