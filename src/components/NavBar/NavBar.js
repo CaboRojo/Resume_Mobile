@@ -18,7 +18,13 @@ const NavBar = () => {
   return (
     <nav className="text-white p-4 absolute top-0 left-0 w-full z-50 bg-transparent">
       <div className="flex justify-between items-center">
-        <div className="text-xl">Alexis Francisco</div>
+        <div className="text-xl">
+          <Link
+          href="/"
+          >
+            Alexis Francisco
+          </Link>
+        </div>
         {/* Hamburger Menu */}
         <div
           className="md:hidden cursor-pointer"
